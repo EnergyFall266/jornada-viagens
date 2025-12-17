@@ -1,20 +1,76 @@
-header{
-    background-color: var(--background-tertriary-color);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 38px 48px
+header {
+  background-color: var(--background-tertriary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 48px;
+  position: relative;
 }
-/* .logo{
-    width: 68px;
-    height: 64px;
-    margin: 37px 0px 37px 48px;
-    display: inline-block;
-} */
-.menu{
 
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertriary-color);
 }
-nav{
+nav {
+  display: none;
+}
+.list-link {
+  list-style: none;
+}
+.list-link li a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+  font-weight: var(--menu-weight);
+  font-size: 24px;
+}
+.list-link li {
+  margin: 16px 0;
+}
+.logo-desktop{
+display: none;
+}
+.logo-mobile{
+    display: block;
+}
+@media screen and (min-width: 768px) {
+  label {
     display: none;
+  }
+  nav {
+    display: block;
+  }
+  .list-link{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 467px;
+  }
+  .list-link li {
+  margin: 0;
+}
+}
+@media screen and (min-width:1024px) {
+    .logo-desktop{
+        display: block;
+    }
+    .logo-mobile{
+        display: none;
+    }
+    header{
+        padding: 38px 128px;
+    }
+    .list-link li a:hover{
+        color: var(--primary-color);
+    }
+    
+}
+@media screen and (min-width:1920px) {
+header{
+        padding: 38px 160px;
+    }
 }
