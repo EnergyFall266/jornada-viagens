@@ -15,21 +15,37 @@ input[type="checkbox"]:checked ~ nav {
   left: 0;
   width: 100%;
   background-color: var(--background-tertriary-color);
-  
-}
-label:hover {
-  cursor: pointer;
 }
 nav {
   display: none;
 }
-.list-link{
-    list-style: none;
+.list-link {
+  list-style: none;
 }
-.list-link li a{
-color: var(--text-secondary-color);
-text-decoration: none;
+.list-link li a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+  font-weight: var(--menu-weight);
+  font-size: 24px;
 }
-.list-link li{
-    margin: 16px 0;
+.list-link li {
+  margin: 16px 0;
+}
+
+@media screen and (min-width: 768px) {
+  label {
+    display: none;
+  }
+  nav {
+    display: block;
+  }
+  .list-link{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 467px;
+  }
+  .list-link li {
+  margin: 0;
+}
 }
