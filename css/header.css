@@ -12,8 +12,11 @@ header{
     margin: 37px 0px 37px 48px;
     display: inline-block;
 } */
-.menu{
-
+input[type="checkbox"]:checked ~ nav{
+    display: block;
+}
+label:hover{
+    cursor: pointer;
 }
 nav{
     display: none;
