@@ -1,23 +1,35 @@
-header{
-    background-color: var(--background-tertriary-color);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 38px 48px
+header {
+  background-color: var(--background-tertriary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 48px;
+  position: relative;
 }
-/* .logo{
-    width: 68px;
-    height: 64px;
-    margin: 37px 0px 37px 48px;
-    display: inline-block;
-} */
-input[type="checkbox"]:checked ~ nav{
-    display: block;
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertriary-color);
+  
 }
-label:hover{
-    cursor: pointer;
+label:hover {
+  cursor: pointer;
 }
-nav{
-    display: none;
+nav {
+  display: none;
+}
+.list-link{
+    list-style: none;
+}
+.list-link li a{
+color: var(--text-secondary-color);
+text-decoration: none;
+}
+.list-link li{
+    margin: 16px 0;
 }
