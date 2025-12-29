@@ -27,10 +27,7 @@
   font-size: 20px;
   line-height: 32px;
 }
-/* .offers-card {
-  justify-content: center;
-  display: flex;
-} */
+
 .card section p {
   font-weight: var(--title-weight);
 }
