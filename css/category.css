@@ -1,7 +1,4 @@
-.categories .section-title{
-    width: 312px;
-    
-}
+
 .card-category {
   width: 312px;
   height: 220px;
@@ -36,9 +33,7 @@
   justify-content: center;
 }
 @media screen and (min-width: 768px) {
- .categories .section-title{
-    width: 100%;
-}
+
 }
 @media screen and (min-width: 1024px) {
   .card-category {

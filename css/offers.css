@@ -16,10 +16,6 @@
   text-align: center;
 }
 .card header {
-  background-color: transparent;
-  display: block;
-  position: static;
-  padding: 0;
   margin-bottom: 8px;
 }
 .card header p {
