@@ -1,0 +1,30 @@
+.card-testimonials{
+    margin: 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.card-testimonials .people-testimonial p{
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.testimonial{
+    margin-bottom: 88px;
+}
+
+@media screen and (min-width: 768px) {
+    .card-testimonials{
+        margin: 0 60px;
+    }
+
+}
+@media screen and (min-width: 1440px) {
+    .card-testimonials{
+        margin: 0 120px;
+        flex-direction: row;
+    }
+    .testimonial{
+    margin-bottom: 104px;
+}
+}
