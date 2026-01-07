@@ -17,6 +17,7 @@
 }
 .card header {
   margin-bottom: 8px;
+  padding: 0;
 }
 .card header p {
   font-weight: var(--text-weight);
