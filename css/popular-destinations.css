@@ -2,16 +2,11 @@
   margin-bottom: 8px;
 }
 
-.destinations-items .item header h4 {
-  font-weight: var(--title-weight);
-  font-size: 28px;
+.destinations-items .item header h3 {
+  
   margin: 24px 0;
 }
-.destinations-items .item p {
-  line-height: 32px;
-  font-size: 20px;
-  font-weight: var(--text-weight);
-}
+
 .destinations-items .item .img-tokyo {
   background: url(../img/Tokyo-mobile.jpg) no-repeat;
   background-size: cover;
