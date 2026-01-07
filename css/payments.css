@@ -1,0 +1,76 @@
+.payment-info {
+  margin: 0 24px;
+}
+.img-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.image.bag {
+  background: url(../img/malas-mobile.png) no-repeat;
+  background-size: cover;
+  height: 254px;
+}
+.image.passport {
+  background: url(../img/passaportes-mobile.png) no-repeat;
+  background-size: cover;
+  height: 254px;
+}
+.image.people {
+  background: url(../img/foto-pessoas-mobile.png) no-repeat;
+  background-size: cover;
+  height: 182px;
+  grid-column: span 2;
+}
+@media screen and (min-width: 768px) {
+  .payment-info {
+    margin: 0 60px;
+  }
+  .image.bag {
+    background: url(../img/malas-tablet.png) no-repeat;
+    height: 254px;
+  }
+  .image.passport {
+    background: url(../img/passaportes-tablet.png) no-repeat;
+    height: 254px;
+  }
+  .image.people {
+    background: url(../img/foto-pessoas-tablet.png) no-repeat;
+    height: 182px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payment-info {
+    margin: 0 120px;
+    display: flex;
+    flex-direction: row;
+  }
+  .image.bag {
+    background: url(../img/malas-desktop.png) no-repeat;
+    height: 254px;
+    background-position: center;
+  }
+  .image.passport {
+    background: url(../img/passaportes-desktop.png) no-repeat;
+    height: 254px;
+    background-position: center;
+  }
+  .image.people {
+    background: url(../img/foto-pessoas-desktop.png) no-repeat;
+    height: 182px;
+    background-position: center;
+  }
+  .img-content{
+    width: 790px;
+  }
+  .text-content{
+    width: 384px;
+  }
+  .payment-info{
+    justify-content: space-between;
+  }
+}

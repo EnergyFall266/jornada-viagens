@@ -48,8 +48,8 @@ body {
   margin: 0;
   text-align: center;
 }
-.section-title{
-  margin: 88px auto 32px ;
+.section-title {
+  margin: 88px auto 32px;
   width: 280px;
 }
 .section-title hr {
@@ -75,25 +75,33 @@ body {
   text-align: center;
 }
 
-
+.content-title {
+  font-weight: var(--title-weight);
+  font-size: 28px;
+}
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
 @media screen and (min-width: 768px) {
   .section-title h2 {
     font-size: 32px;
   }
-.section-title{
-  width: 100%;
-}
+  .section-title {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .section-title h2 {
     font-size: 32px;
   }
-  .section-title{
+  .section-title {
     margin: 104px 0 64px 0;
   }
- 
-  .button:hover{
+
+  .button:hover {
     background-color: var(--primary-color);
   }
 }
