@@ -1,0 +1,13 @@
+.forms-content .content-info h3 {
+  font-size: 32px;
+}
+.forms-content .content-info p {
+  font-size: 20px;
+  line-height: 33px;
+}
+.forms-content .content-info hr {
+  background-color: var(--secondary-color);
+  width: 180px;
+  height: 4px;
+  border-width: 0;
+}
