@@ -1,0 +1,18 @@
+.hero-contact-footer .img-hero-footer{
+    background: url(../img/contact-hero-footer-mobile.png) no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    
+}
+@media screen and (min-width: 768px) {
+    .hero-contact-footer .img-hero-footer{
+    background: url(../img/contact-hero-footer-tablet.png);
+    height: 600px;
+}
+}
+@media screen and (min-width: 1024px) {
+    .hero-contact-footer .img-hero-footer{
+    background: url(../img/contact-hero-footer-desktop.png);
+    }
+}
