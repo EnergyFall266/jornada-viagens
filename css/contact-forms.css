@@ -1,0 +1,90 @@
+.forms-content{
+  margin: 88px 0;
+}
+.forms-content .content-info h3 {
+  font-size: 32px;
+  margin: 0 24px 16px 24px;
+  text-align: center;
+}
+.forms-content .content-info p {
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  margin: 56px 24px;
+}
+.forms-content .content-info hr {
+  background-color: var(--secondary-color);
+  width: 180px;
+  height: 4px;
+  border-width: 0;
+}
+
+.forms-content form {
+  margin: 0 24px;
+  display: flex;
+  flex-direction: column;
+}
+.forms-content form input {
+  border-color: #d9d9d9;
+  border-width: 0 0 3px 0;
+  font-size: 20px;
+  line-height: 32px;
+  width: 100%;
+  margin-bottom: 64px;
+  font-family: "Montserrat";
+  outline: none;
+  color: #8c8c8c;
+}
+.forms-content form input:focus {
+  border-color: var(--secondary-color);
+}
+.forms-content form label {
+  font-family: "Montserrat";
+  color: #8c8c8c;
+  font-size: 20px;
+  line-height: 32px;
+}
+.forms-content form textarea {
+  border-color: #d9d9d9;
+  border-width: 2px;
+  font-size: 20px;
+  line-height: 32px;
+  width: 100%;
+  margin-bottom: 64px;
+  font-family: "Montserrat";
+  outline: none;
+
+  border-radius: 8px;
+  height: 90px;
+  margin-top: 8px;
+}
+.forms-content form textarea:focus {
+  border-color: var(--secondary-color);
+}
+.forms-content form button {
+  border-width: 0;
+  width: 312px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .forms-content .content-info p {
+    margin: 56px 60px;
+  }
+  .forms-content form {
+    margin: 0 60px;
+  }
+  .forms-content form button {
+    width: 280px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .forms-content .content-info p {
+    margin: 56px 120px;
+  }
+  .forms-content form {
+    margin: 0 325px;
+  }
+  .forms-content{
+  margin: 104px 0;
+}
+}

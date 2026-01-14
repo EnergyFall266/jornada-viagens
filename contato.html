@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.svg" type="xml/x-icon" />
+    <title>Contato</title>
   </head>
   <body>
     <header class="header-main-contact">
@@ -57,6 +58,49 @@
             </footer>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="forms">
+      <div class="forms-content">
+        <div class="content-info">
+          <h3>Preencha o formulário:</h3>
+          <hr />
+          <p>
+            Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+            problemas, trazer dicas e orientações objetivas para tornar sua
+            experiência o mais prazerosa e tranquila possível. Preencha seus
+            dados que vamos retornar seu contato conforme a urgência do seu
+            chamado. Pode confiar!
+          </p>
+        </div>
+
+        <form action="#" method="get">
+          <input type="" name="userName" placeholder="Seu nome" required  autocomplete="on"/>
+          <br />
+          <input
+            type="tel"
+            name="userPhone"
+            pattern="[0-9]{11}"
+            placeholder="Telefone"
+            required
+            title="Format: 123-456-7890"
+          />
+          <br />
+          <input type="email" name="userEmail" placeholder="Email" required />
+          <br />
+          <input
+            type="text"
+            name="userSubject"
+            placeholder="Assunto"
+            required
+          />
+          <br />
+          <label for="subject">Assunto</label>
+
+          <br />
+          <textarea id="subject" name="userSubjectExplanation"></textarea>
+          <button class="button" type="submit">Enviar!</button>
+        </form>
       </div>
     </section>
   </body>
