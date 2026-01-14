@@ -75,17 +75,31 @@
         </div>
 
         <form action="#" method="get">
-          <input type="text" name="userName" placeholder="Seu nome" />
+          <input type="" name="userName" placeholder="Seu nome" required  autocomplete="on"/>
           <br />
-          <input type="text" name="userPhone" placeholder="Telefone" />
+          <input
+            type="tel"
+            name="userPhone"
+            pattern="[0-9]{11}"
+            placeholder="Telefone"
+            required
+            title="Format: 123-456-7890"
+          />
           <br />
-          <input type="text" name="userEmail" placeholder="Email" />
+          <input type="email" name="userEmail" placeholder="Email" required />
           <br />
-          <input type="text" name="userSubject" placeholder="Assunto" />
+          <input
+            type="text"
+            name="userSubject"
+            placeholder="Assunto"
+            required
+          />
           <br />
-          <label>Assunto</label>
-          <textarea name="userSubjectExplanation"></textarea>
-          <button type="submit">Enviar!</button>
+          <label for="subject">Assunto</label>
+
+          <br />
+          <textarea id="subject" name="userSubjectExplanation"></textarea>
+          <button class="button" type="submit">Enviar!</button>
         </form>
       </div>
     </section>
