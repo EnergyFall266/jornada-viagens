@@ -1,0 +1,11 @@
+.city .city-content .arrived .arrived-img {
+  background: url(../img/Tokyo-image.png) no-repeat;
+  background-size: cover;
+  height: 360px;
+}
+
+@media screen and (min-width: 1440px) {
+  .city .city-content .arrived .arrived-img {
+    background: url(../img/Tokyo-image-desktop.png );
+  }
+}
