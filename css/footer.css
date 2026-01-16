@@ -27,6 +27,9 @@
 .footer .social-media-content {
   text-align: center;
 }
+.footer .social-media-content a{
+  text-decoration: none;
+}
 
 @media screen and (min-width: 768px) {
   .footer {
