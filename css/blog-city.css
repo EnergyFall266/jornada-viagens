@@ -1,0 +1,67 @@
+.city .city-content {
+  padding: 24px 24px 0 24px;
+}
+
+.city .city-content .arrived .arrived-img {
+  background: url(../img/Tokyo-image.png) no-repeat;
+  background-size: cover;
+  height: 360px;
+  margin-top: 24px;
+}
+.city .city-content .tokyo-img {
+  background: url(../img/tokyo-night-image-mobile.png) no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-top: 32px;
+}
+.city .city-content .arrived .arrived-text h3 {
+  margin: 0 0 24px 0;
+}
+.city .city-content h3 {
+  font-size: 28px;
+  margin: 32px 0 24px 0;
+}
+.city .city-content p {
+  font-size: 20px;
+  line-height: 32px;
+}
+.city .city-content legend {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .city .city-content .tokyo-img {
+    background: url(../img/tokyo-night-image-tablet.png);
+  }
+  .city .city-content {
+    padding: 0 60px;
+  }
+  .city .city-content .arrived {
+    display: flex;
+    justify-content: space-between;
+  }
+  .city .city-content .arrived .arrived-text {
+    width: 312px;
+  }
+  .city .city-content .arrived .arrived-img {
+    width: 312px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .city .city-content .arrived .arrived-img {
+    background: url(../img/Tokyo-image-desktop.png);
+  }
+  .city .city-content .tokyo-img {
+    background: url(../img/tokyo-night-image-desktop.png) no-repeat;
+  }
+  .city .city-content .arrived .arrived-text {
+    width: 588px;
+  }
+  .city .city-content .arrived .arrived-img {
+    width: 588px;
+  }
+    .city .city-content {
+    padding: 32px 120px 0 120px;
+  }
+}
