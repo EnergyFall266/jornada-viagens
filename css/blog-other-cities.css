@@ -1,0 +1,94 @@
+.other-cities-items .item header {
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+.other-cities-items .item header h3 {
+  margin: 16px 0 8px 0;
+} 
+.other-cities{
+    margin-bottom: 88px;
+}
+
+.other-cities-items .item .img-hiroshima {
+  background: url(../img/Hiroshima-mobile.png) no-repeat;
+  background-size: cover;
+  height: 360px;
+  width: 100%;
+}
+.other-cities-items .item .img-kyoto {
+  background: url(../img/Kyoto-mobile.png) no-repeat;
+  background-size: cover;
+  height: 360px;
+  width: 100%;
+}
+.other-cities-items .item .img-osaka {
+  background: url(../img/Osaka-mobile.jpg) no-repeat;
+  background-size: cover;
+  height: 360px;
+  width: 100%;
+}
+.other-cities-items {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+.other-cities-items {
+  margin: 0 24px;
+}
+.other-cities-items .item footer {
+  margin-top: 24px;
+}
+.other-cities-items .item footer .button {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .other-cities-items .item .img-osaka {
+    background: url(../img/Osaka.jpg) no-repeat;
+    height: 300px;
+  }
+  .other-cities-items .item .img-hiroshima {
+    background: url(../img/Hiroshima-tablet.png) no-repeat;
+    height: 300px;
+  }
+  .other-cities-items .item .img-kyoto {
+    background: url(../img/Kyoto-tablet.png) no-repeat;
+    height: 300px;
+  }
+  .other-cities-items {
+    margin: 0 60px;
+  }
+  .other-cities-items .item footer .button {
+    width: 280px;
+  }
+  .other-cities{
+    margin-bottom: 104px;
+}
+}
+@media screen and (min-width: 1024px) {
+  .other-cities-items {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .other-cities-items {
+    margin: 0 120px;
+  }
+  .other-cities-items .item .img-osaka {
+    background: url(../img/Osaka-desktop.png) no-repeat;
+    
+  }
+  .other-cities-items .item .img-hiroshima {
+    background: url(../img/Hiroshima-desktop.png) no-repeat;
+    
+  }
+  .other-cities-items .item .img-kyoto {
+    background: url(../img/Kyoto-desktop.png) no-repeat;
+    
+  }
+  .other-cities-items .item{
+    width: 384px;
+  }
+  .other-cities{
+    margin-bottom: 160px;
+}
+}
