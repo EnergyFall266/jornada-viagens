@@ -17,5 +17,6 @@
     .hero-contact-footer .img-hero-footer{
     background: url(../img/contact-hero-footer-desktop.png);
     background-repeat: no-repeat;
+    background-size: cover;
     }
 }

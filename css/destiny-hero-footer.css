@@ -13,5 +13,6 @@
   .hero-footer-destiny .image-hero {
     background: url(../img/destiny-hero-footer-desktop.png) no-repeat;
     height: 600px;
+    background-size: cover;
   }
 }

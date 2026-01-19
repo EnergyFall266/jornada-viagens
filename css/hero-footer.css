@@ -13,5 +13,6 @@
   .hero-footer .image-hero {
     background: url(../img/image-footer-desktop.png) no-repeat;
     height: 600px;
+    background-size: cover;
   }
 }
