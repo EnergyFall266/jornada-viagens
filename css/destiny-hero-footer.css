@@ -1,0 +1,17 @@
+.hero-footer-destiny .image-hero {
+  background: url(../img/destiny-hero-footer-mobile.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+@media screen and (min-width: 768px) {
+  .hero-footer-destiny .image-hero {
+    background: url(../img/destiny-hero-footer-tablet.png) no-repeat;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero-footer-destiny .image-hero {
+    background: url(../img/destiny-hero-footer-desktop.png) no-repeat;
+    height: 600px;
+  }
+}
