@@ -1,0 +1,89 @@
+.payment-destiny .payment-info {
+  margin: 0 24px;
+}
+.payment-destiny .img-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+  width: 100%;
+}
+.payment-destiny .content-title-text{
+    font-size: 28px;
+    margin: 24px 0;
+
+}
+.payment-destiny .content-title.price{
+    font-size: 40px;
+    margin: 0;
+}
+.payment-destiny .image.bag {
+  background: url(../img/pagamento-japão-mobile.png) no-repeat;
+  background-size: cover;
+  height: 254px;
+}
+.payment-destiny .image.passport {
+  background: url(../img/pagamento-japão-mobile2.png) no-repeat;
+  background-size: cover;
+  height: 254px;
+}
+.payment-destiny .image.people {
+  background: url(../img/pagamento-japão-mobile3.png) no-repeat;
+  background-size: cover;
+  height: 182px;
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payment-destiny .payment-info {
+    margin: 0 60px;
+
+  }
+  .payment-destiny .image.bag {
+    background: url(../img/pagamento-japão-tablet.png) no-repeat;
+    height: 254px;
+  }
+  .payment-destiny .image.passport {
+    background: url(../img/pagamento-japão-tablet2.png) no-repeat;
+    height: 254px;
+  }
+  .payment-destiny .image.people {
+    background: url(../img/pagamento-japão-tablet3.png) no-repeat;
+    height: 182px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payment-destiny .payment-info {
+    margin: 0 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .payment-destiny .image.bag {
+    background: url(../img/pagamento-japão-desktop.png) no-repeat;
+    height: 254px;
+    background-position: center;
+  }
+  .payment-destiny .image.passport {
+    background: url(../img/pagamento-japão-desktop2.png) no-repeat;
+    height: 254px;
+    background-position: center;
+  }
+  .payment-destiny .image.people {
+    background: url(../img/pagamento-japão-desktop3.png) no-repeat;
+    height: 182px;
+    background-position: center;
+  }
+  .payment-destiny .img-content{
+    width: 790px;
+    margin: 0;
+  }
+  .payment-destiny .text-content{
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}
