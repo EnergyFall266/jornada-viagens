@@ -1,0 +1,71 @@
+.hero-destiny .hero-img {
+  width: 100%;
+  background-image: url(../img/Banner-Japão-mobile.png);
+  height: 460px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: -289px 0px;
+}
+.hero-destiny .hero-img .layer {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 460px;
+  box-sizing: border-box;
+}
+.hero-destiny .hero-img .hero-content {
+  padding: 49px 24px;
+}
+.hero-destiny .hero-img header h2 {
+  margin: 32px 0 0 0;
+  font-size: 48px;
+  color: var(--text-secondary-color);
+}
+.hero-destiny .hero-img hr {
+  background-color: var(--secondary-color);
+  width: 180px;
+  height: 4px;
+  border-width: 0;
+  margin: 16px 156px 32px 0;
+}
+.hero-destiny .hero-img footer p {
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--text-secondary-color);
+}
+@media screen and (min-width: 768px) {
+  .hero-destiny .hero-img {
+    height: 620px;
+    background-position: 0;
+    background-image: url(../img/Banner-Japão-tablet.png);
+  }
+  .hero-destiny .hero-img .hero-content {
+
+    padding: 177px 95px 176px 94px;
+  }
+  .hero-destiny .hero-img .layer {
+    height: 620px;
+  }
+  .hero-destiny .hero-img footer p {
+    font-size: 32px;
+    line-height: 52px;
+  }
+  .hero-destiny .hero-img header h2 {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero-destiny .hero-img {
+    background-image: url(../img/Banner-Japão-desktop.png);
+  }
+  .hero-destiny .hero-img header {
+    padding: 0;
+  }
+  .hero-destiny .hero-img .hero-content {
+    padding: 209px 330px 155px 120px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-destiny .hero-img .hero-content {
+    padding: 209px 741px 155px 120px;
+  }
+}
